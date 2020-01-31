@@ -90,7 +90,7 @@ form {
 	margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
 	display:block;
 	margin: 0 0 10px;
 	font-size: 20px;
@@ -103,9 +103,29 @@ form label, form p {
 	width:50%;
 }
 
-.checkbox {
+.checkbox, fieldset {
 	margin:20px 0;
 }
+
+.botao-enviar{
+	width: 40%;
+	padding: 15px 0;
+	margin-left:20px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	border:none;
+	background: gray;
+	border-radius:7px;
+	transition:1s all;
+	cursor:pointer;
+}
+
+.botao-enviar:hover{
+	background: black;
+	transform: scale(1.1);
+}
+
 footer {
 	text-align: center;
 	background: url("bg.jpg");
