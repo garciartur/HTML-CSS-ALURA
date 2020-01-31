@@ -110,7 +110,6 @@ form label, form legend {
 .botao-enviar{
 	width: 40%;
 	padding: 15px 0;
-	margin-left:20px;
 	color:white;
 	font-weight:bold;
 	font-size:18px;
@@ -126,6 +125,21 @@ form label, form legend {
 	transform: scale(1.1);
 }
 
+table {
+	margin:20px 0 40px;
+}
+
+thead {
+	background: gray;
+	color: white;
+	font-weight: bold;
+}
+
+th, td {
+	border:1px solid #555555;
+	padding: 8px 15px;
+
+}
 footer {
 	text-align: center;
 	background: url("bg.jpg");
