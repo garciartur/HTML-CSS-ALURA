@@ -4,7 +4,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Barbearia Alura</title>
-		<link rel="stylesheet" href="style-home.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
 	</head>
 
 	<body>
@@ -22,29 +24,35 @@
 			</div>
 		</header>
 
-		<img id="banner" src="banner.jpg">
+		<img class="banner" src="banner.jpg">
 
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a <strong>Barbearia Alura</strong></h2>
+		<main>
 
-			<p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a <strong>Barbearia Alura</strong></h2>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em>.</p>
+				<img class="imgutensilios" src="utensilios.jpg" alt="Utensílios de um barbeiro">
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+				<p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
-			<ul class="servicos">
-				<li class="itens">Atendimento aos clientes;</li>
-				<li class="itens">Localização;</li>
-				<li class="itens">Espaço diferenciado;</li>
-				<li class="itens">Profissionais qualificados.</li>
-			</ul>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em>.</p>
 
-			<img src="beneficios.jpg" class="imgbeneficios">
-		</div>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+				<ul class="servicos">
+					<li class="itens">Atendimento aos clientes;</li>
+					<li class="itens">Localização;</li>
+					<li class="itens">Espaço diferenciado;</li>
+					<li class="itens">Profissionais qualificados.</li>
+				</ul>
+
+				<img class="imgbeneficios" src="beneficios.jpg" alt="Barbeiro fazendo a barba de um cliente">
+			</section>
+
+		</main>
 
 	<footer>
 		<img src="logo-branco.png">
