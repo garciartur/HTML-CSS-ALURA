@@ -181,10 +181,33 @@ footer {
 	font-style:italic;
 }
 
+.beneficios {
+	padding: 3em;
+}
+
 .imgutensilios {
 	width:120px;
 	float:left;
 	margin:0 20px 20px 0;
+}
+
+.contbeneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.listabeneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight:bold;
 }
 
 .imgbeneficios {
