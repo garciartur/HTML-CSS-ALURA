@@ -168,6 +168,10 @@ footer {
 	clear:left;
 }
 
+.titulo-principal: first-letter {
+	font-weight: bold;
+}
+
 .principal {
 	padding: 3em 0;
 	background:#FEFEFE;
@@ -228,6 +232,10 @@ footer {
 
 .itens {
 	line-height: 1.5;
+}
+
+.itens:before {
+	content: "🟊 ";
 }
 
 .itens:first-child {
